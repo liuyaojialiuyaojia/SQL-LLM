@@ -1,0 +1,142 @@
+答案在 https://poe.com/s/TifLB4roxXb9BnSMVfdz
+------------------
+找出所有位于特定位置（比如“北京”）的变电站的ID和容量。
+Substation:SubstationID: 0.39103872
+PowerPlant:PlantID: 0.40471223
+Substation:Capacity: 0.40516102
+PowerPlant:Location: 0.41404167
+Substation:Location: 0.4180399
+------------------
+查询所有的水力电厂的名称和位置。
+PowerPlant:Location: 0.3430075
+PowerPlant:PlantName: 0.36836848
+PowerPlant:PlantID: 0.39396384
+PowerPlant:PlantType: 0.41531235
+Substation:Location: 0.41958216
+------------------
+查找所有产能超过1000MW的发电机的ID和它们所在的电厂ID。
+PowerPlant:PlantID: 0.35013363
+Substation:SubstationID: 0.42654625
+PowerPlant:PlantName: 0.43619853
+Generator:GeneratorID: 0.43990102
+Generator:PlantID: 0.44156012
+------------------
+查询某个特定时间（比如“2023-09-08 12:00:00”）的所有电表读数。
+MeterReading:DateTime: 0.42425704
+MeterReading:ReadingID: 0.45794693
+MeterReading:ReadingValue: 0.46183148
+MeterReading:MeterID: 0.46224663
+TransmissionLine:LineID: 0.54956657
+------------------
+查询某个特定变电站（比如ID为1）的总负荷值。
+Load:SubstationID: 0.39123675
+Substation:SubstationID: 0.4164782
+Substation:Capacity: 0.43179047
+PowerPlant:PlantID: 0.43576857
+Load:LoadID: 0.45697665
+------------------
+查询所有产能超过1000MW的发电机所在的电厂的名称。
+PowerPlant:PlantName: 0.33940554
+PowerPlant:PlantID: 0.38162556
+PowerPlant:PlantType: 0.39058134
+PowerPlant:Location: 0.3916955
+Substation:Capacity: 0.43152207
+------------------
+查询“北京”所有变电站的负荷总和。
+Substation:Capacity: 0.43017
+PowerPlant:Location: 0.4574247
+PowerPlant:PlantName: 0.46786404
+TransmissionLine:Capacity: 0.47260275
+PowerPlant:PlantType: 0.4730219
+------------------
+查找产能最大的发电机的类型和所在电厂的名字。
+PowerPlant:PlantType: 0.36918813
+PowerPlant:PlantName: 0.3732864
+PowerPlant:Location: 0.4007592
+PowerPlant:PlantID: 0.40498707
+Generator:Capacity: 0.44773546
+------------------
+查询某一天（比如“2023-09-08”）的总电力消耗（所有电表读数的总和）。
+MeterReading:DateTime: 0.46468472
+MeterReading:ReadingID: 0.473776
+MeterReading:MeterID: 0.47561893
+MeterReading:ReadingValue: 0.47960535
+PowerPlant:PlantID: 0.51162237
+------------------
+找出哪个电厂的发电机产能总和最大。
+PowerPlant:Location: 0.43798625
+PowerPlant:PlantName: 0.4386303
+PowerPlant:PlantType: 0.44261277
+PowerPlant:PlantID: 0.44262683
+Generator:Capacity: 0.45859405
+------------------
+Retrieve the names and locations of all hydroelectric power plants.
+PowerPlant:Location: 0.3243234
+PowerPlant:PlantName: 0.3363806
+PowerPlant:PlantID: 0.3560354
+PowerPlant:PlantType: 0.39790577
+Substation:Location: 0.4249308
+------------------
+Find the IDs of all generators with a capacity exceeding 1000MW and their respective power plant IDs.
+PowerPlant:PlantID: 0.30480814
+Generator:PlantID: 0.34037426
+Generator:GeneratorID: 0.35271204
+Generator:Capacity: 0.35328835
+Substation:SubstationID: 0.3945574
+------------------
+Find the IDs and capacities of all substations located at specific locations (such as "Beijing").
+Substation:SubstationID: 0.3098466
+Substation:Capacity: 0.32674596
+Substation:Location: 0.32905492
+Load:SubstationID: 0.33233574
+PowerPlant:Location: 0.42092943
+------------------
+Retrieve all electricity meter readings for a specific time (e.g., '2023-09-08 12:00:00').
+MeterReading:DateTime: 0.37238067
+MeterReading:MeterID: 0.41080898
+MeterReading:ReadingID: 0.43468252
+MeterReading:ReadingValue: 0.43544942
+Load:SubstationID: 0.54634464
+------------------
+Query the total load value of a specific substation (e.g., ID 1).
+Load:SubstationID: 0.28258988
+Substation:SubstationID: 0.3776564
+Substation:Capacity: 0.4195598
+Load:LoadValue: 0.42212242
+Load:LoadID: 0.43256277
+------------------
+Retrieve the names of power plants where generators have a capacity exceeding 1000MW.|
+PowerPlant:PlantName: 0.30238715
+PowerPlant:PlantID: 0.3319135
+PowerPlant:Location: 0.34653136
+Generator:Capacity: 0.35388067
+PowerPlant:PlantType: 0.35851216
+------------------
+Query the total load of all substations in "Beijing."
+Load:SubstationID: 0.36781776
+Substation:Capacity: 0.37002575
+Substation:SubstationID: 0.39873934
+Substation:Location: 0.40006945
+TransmissionLine:Capacity: 0.45797855
+------------------
+Find the type of the generator with the highest capacity and the name of the power plant where it is located.
+PowerPlant:PlantType: 0.31047294
+PowerPlant:PlantName: 0.31317016
+PowerPlant:Location: 0.32360312
+Generator:Capacity: 0.338219
+PowerPlant:PlantID: 0.3441355
+------------------
+Query the total electricity consumption for a specific day (e.g., '2023-09-08'), which is the sum of all meter readings.
+MeterReading:DateTime: 0.39363274
+MeterReading:MeterID: 0.3973903
+MeterReading:ReadingID: 0.41622767
+MeterReading:ReadingValue: 0.4306102
+Substation:Capacity: 0.4957012
+------------------
+Find out which power plant has the largest total generator capacity.
+PowerPlant:PlantName: 0.3437853
+PowerPlant:Location: 0.34878734
+Generator:Capacity: 0.35355842
+PowerPlant:PlantID: 0.3580556
+PowerPlant:PlantType: 0.36787328
+------------------
